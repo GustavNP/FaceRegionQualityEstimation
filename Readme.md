@@ -3,7 +3,7 @@ Face Region Quality Estimation
 
 This is the Face Region Quality Estimation (FRQE) project.
 
-It is dependent on the Fine-Grained Face Parsing version of OFIQ. That project must be installed for this project to work.
+It is dependent on the [Fine-Grained Face Parsing version of OFIQ](https://github.com/GustavNP/OFIQ-Project-FGFP). That project must be installed for this project to work.
 
 Before running FRQE, you have to change some hard coded full paths to the installation of the Fine-Grained Face Parsing version of OFIQ.
 These paths are found here:
