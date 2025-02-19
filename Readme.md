@@ -35,8 +35,7 @@ It starts a powershell subprocess running OFIQ-FGFP on the images in blackout-im
 Then the difference in UQS per pixel for each blackout image is computed. The values are saved in blackout-regions_UQS_difference_per_pixel_from_original.csv.
 
 Then the FRQE algorithm is run for the images in Test-images, which computes the heat maps and saves them in the heatmaps folder. The original image alongside the heat map is saved as one image file in the combined folder
-
-======================================
+--------------------------------
 
 
 ![Example heatmap and image](./combined/combined_image2.png)
