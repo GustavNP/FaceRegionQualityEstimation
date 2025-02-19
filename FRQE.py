@@ -128,7 +128,7 @@ def compute_Face_Region_Quality_Estimation_heatmap(image_file):
 
 
 # run ofiq on images to create aligned image and FGFP mask
-ofiq_script_path = "C:\\Users\\admin\\source\\repos\\FaceRegionScores\\run_OFIQ_test-images.ps1" # NOTE: change to your local full path
+ofiq_script_path = "C:\\Users\\admin\\source\\repos\\FaceRegionQualityEstimation\\run_OFIQ_test-images.ps1" # NOTE: change to your local full path
 process = subprocess.Popen(["powershell", "-ExecutionPolicy", "Bypass", "-File", ofiq_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 stdout, stderr = process.communicate()
 print(stdout.decode())
@@ -137,7 +137,7 @@ for root, dirs, files in os.walk("Test-images"):
     create_blackout_images(files)
 
 
-ofiq_script_path = "C:\\Users\\admin\\source\\repos\\FaceRegionScores\\run_OFIQ_blackout-images.ps1" # NOTE: change to your local full path
+ofiq_script_path = "C:\\Users\\admin\\source\\repos\\FaceRegionQualityEstimation\\run_OFIQ_blackout-images.ps1" # NOTE: change to your local full path
 process = subprocess.Popen(["powershell", "-ExecutionPolicy", "Bypass", "-File", ofiq_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 process.communicate()
 

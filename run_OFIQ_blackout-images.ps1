@@ -5,8 +5,8 @@ Set-Location -Path "C:\\Users\\admin\\source\\repos\\OFIQ-Project-FGFP\\install_
 $ofiq_command = ".\\OFIQSampleApp"
 
 
-# NOTE: Change to location of your local FaceRegionScores repo
-$FRQE_path = "C:\\Users\\admin\\source\\repos\\FaceRegionScores" # NOTE: Change to location of your local FaceRegionScores repo
+# NOTE: Change to location of your local FaceRegionQualityEstimation repo
+$FRQE_path = "C:\\Users\\admin\\source\\repos\\FaceRegionQualityEstimation" # NOTE: Change to location of your local FaceRegionQualityEstimation repo
 
 # # Compute UQS and CQMs
 # $arguments = @(
