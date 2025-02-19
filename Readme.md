@@ -36,3 +36,7 @@ Then the difference in UQS per pixel for each blackout image is computed. The va
 
 Then the FRQE algorithm is run for the images in Test-images, which computes the heat maps and saves them in the heatmaps folder. The original image alongside the heat map is saved as one image file in the combined folder
 
+==========
+
+
+![Example heatmap and image](./combined/combined_image2.png)
