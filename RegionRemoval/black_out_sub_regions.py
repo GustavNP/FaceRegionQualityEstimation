@@ -2,6 +2,8 @@ import cv2
 import os
 import csv
 
+# Author: Gustav Nilsson Pedersen - s174562@student.dtu.dk
+
 def create_image_with_blacked_out_region(original_img, face_parsing_mask, region_class_dictionary, blackout_images_path_base, org_image_filename):
     
     region_images_dictionary = {}

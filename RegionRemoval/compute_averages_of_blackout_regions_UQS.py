@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Author: Gustav Nilsson Pedersen - s174562@student.dtu.dk
 
 def convert_blackout_filename_to_original_filename(filename):
     region = filename.split('_')[-1].split('.')[0]

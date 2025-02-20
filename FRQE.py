@@ -10,6 +10,8 @@ from RegionRemoval.black_out_sub_regions import create_blackout_images
 from RegionRemoval.compute_averages_of_blackout_regions_UQS import compute_blackout_regions_difference_per_pixel
 
 
+# Author: Gustav Nilsson Pedersen - s174562@student.dtu.dk
+
 def compute_Face_Region_Quality_Estimation_heatmap(image_file):
 
     image_name_base, ext = os.path.splitext(image_file)

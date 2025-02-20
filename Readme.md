@@ -1,6 +1,8 @@
 Face Region Quality Estimation
 ===========================
 
+Author: Gustav Nilsson Pedersen - s174562@student.dtu.dk
+
 This is the Face Region Quality Estimation (FRQE) project.
 
 It is dependent on the [Fine-Grained Face Parsing version of OFIQ](https://github.com/GustavNP/OFIQ-Project-FGFP). That project must be installed for this project to work.
